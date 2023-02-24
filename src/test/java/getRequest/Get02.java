@@ -70,13 +70,14 @@ public class Get02 {
                                                             // PASS olmuş olur.
         // Test 4: Headers dan Via nın "1.1 vegur"
         //System.out.println("Butun Headers: " + response.getHeaders()); // Bütün headersları alabiliyoruz.
-
         // Tek bir tane headera ulaşabilmek için ise;
         //System.out.println("Single Header: " + response.getHeader("Via"));
         assertEquals("1.1 vegur",response.getHeader("Via")); //assertEquals() ---> içine girilen değerler biribiri
                                                                 // ile eşit ise TRUE döner ve böylece Testimiz PASS olmuş olur
         // Test 5: Response body nin "Clarusway" yazmadığını assert et
         assertFalse(responseBodyStr.contains("Clarusway")); //assertFalse() içine girmiş olduğum veri FALSE return oluyorsa
-                                                            // benim testimiz PASS olur
+                                                            // testimiz PASS olur
     }
+
+
 }

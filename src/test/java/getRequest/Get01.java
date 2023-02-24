@@ -73,9 +73,9 @@ public class Get01 {
         /*
          Then
         Status Code un "200" olduğunu Assert et
-    And
+         And
         Content Type ın "application/json" olduğunu assert et
-    And
+         And
         Status Line "HTTP/1.1 200 OK" olduğunu assert et.
          */
         //Test 1: status code ===> 200
@@ -88,7 +88,6 @@ public class Get01 {
 
         //Test 3: Status Line
         response.then().assertThat().statusLine("HTTP/1.1 200 OK");
-
 
         //Status Code u konsola nasıl yazdırabiliriz?
         System.out.println("Status Code: " + response.getStatusCode());

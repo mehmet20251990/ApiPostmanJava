@@ -9,7 +9,6 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.testng.AssertJUnit.assertEquals;
-
 public class Get06 extends GoRestBaseURL {
     /*
         Given
@@ -28,7 +27,7 @@ public class Get06 extends GoRestBaseURL {
 "title": "Pariatur spoliatio odit defaeco uberrime ambulo asperiores velut et eveniet.",
 "due_on": "2023-03-20T00:00:00.000+05:30",
 "status": "pending"
-}
+        }
     */
     @Test
     public void get06(){

@@ -4,12 +4,9 @@ import baseURLs.DummyBaseURL;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Test;
-
 import java.util.List;
-
 import static io.restassured.RestAssured.given;
 import static org.testng.AssertJUnit.assertEquals;
-
 public class Get07 extends DummyBaseURL {
      /*
         Given

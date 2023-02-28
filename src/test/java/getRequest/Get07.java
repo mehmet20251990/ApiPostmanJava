@@ -74,5 +74,7 @@ public class Get07 extends DummyBaseURL {
 
          // Test 3: salary
 
+
+
      }
 }

@@ -59,7 +59,7 @@ public class Get10 extends DummyBaseURL {
             Kullanıcı 21, 23 ve 59 yaşlarında employee olduğunu doğrular
          */
         response.then().assertThat().statusCode((Integer) expectedData.get(0).get("StatusCode")).
-                body("data[-1].employee_name",equalTo(expectedData.get(1).get("EmployeeName")),
+                body("data[-1].employee_name",equalTo(expectedData.get(1).get("EmployeeName")), //[-1] son eleman demek
                         "data[5].employee_salary",equalTo(expectedData.get(2).get("EmployeeSalary")),
                         "data.employee_age",hasItems(((List)expectedData.get(3).get("EmployeeAges")).get(0),
                                 ((List)expectedData.get(3).get("EmployeeAges")).get(1),
@@ -71,5 +71,8 @@ public class Get10 extends DummyBaseURL {
         JsonPath
         metotoalrını kullanarak assertion işlemlerini tamamlayınız .
          */
+
+
+
     }
 }

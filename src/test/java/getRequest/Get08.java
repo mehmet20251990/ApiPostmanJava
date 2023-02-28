@@ -128,5 +128,8 @@ public class Get08 extends SwapiApiBaseURL {
         /*
         JsonPath   ----- SoftAssert kullanarak çözümünü yapınız.
          */
+
+
+
     }
 }

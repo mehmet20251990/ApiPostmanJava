@@ -3,7 +3,7 @@ package utilities;
 import org.codehaus.jackson.map.ObjectMapper;
 import java.io.File;
 import java.io.IOException;
-public class JavaToJson {
+public class JsonToJava {
     private static ObjectMapper mapper;
     static{
         mapper = new ObjectMapper();

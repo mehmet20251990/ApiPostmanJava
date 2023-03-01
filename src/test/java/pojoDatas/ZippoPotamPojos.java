@@ -15,8 +15,8 @@ public class ZippoPotamPojos {
             }]
     }
      */
-//Step 1 : Private Var. Create et.
-     private String postCode;
+        //Step 1 : Private Var. Create et.
+    private String postCode;
     private String country;
     private String countryAbbreviation;
     private ZippoPotamPlaces zippoPotamPlaces;

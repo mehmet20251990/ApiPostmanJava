@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
-public class Get18 extends SwapiApiBaseURL {
+public class Get15 extends SwapiApiBaseURL {
     /*
         Given
             https://swapi.dev/api/starships/3

@@ -22,6 +22,20 @@ public class JsonPlaceHolderTestData {
         expectedData.put("completed",false);
         return expectedData;
     }
+    public HashMap<String,Object> setUpForPutReq(){
+        /*
+                {
+                 "userId": 01,
+                 "title": "CW FSQA API Tutorial",
+                 "completed": true
+               }
+         */
+        expectedData = new HashMap<>();
+        expectedData.put("userId",01);
+        expectedData.put("title","CW FSQA API Tutorial");
+        expectedData.put("completed",true);
+        return expectedData;
+    }
 }
 
 

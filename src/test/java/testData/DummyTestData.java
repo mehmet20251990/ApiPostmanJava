@@ -41,7 +41,20 @@ public class DummyTestData {
         expectedDataList.add(expectedDataName);
         expectedDataList.add(expectedDataSalary);
         expectedDataList.add(expectedDataMapAges);
-
         return expectedDataList;
+    }
+     /*
+    {
+    "status": "success",
+    "data": "719",
+    "message": "Successfully! Record has been deleted"
+    }
+     */
+    public HashMap<String,String> setExpectedDataForDelete(String status,String data,String message){
+        HashMap<String,String> expectedData = new HashMap<>();
+        expectedData.put("status",status);
+        expectedData.put("data",data);
+        expectedData.put("message",message);
+        return expectedData;
     }
 }

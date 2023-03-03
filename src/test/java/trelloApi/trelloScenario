@@ -1,4 +1,24 @@
 Bu çalışmamız da Trello API sini kullanarak çeşitli işlemler yapmayı hedefleyeceğiz.
+
+Kullanılacak Doc. ====>>>>>
+https://developer.atlassian.com/cloud/trello/rest/api-group-actions/
+
+
+To Do List
+--- apiKey ve token alınmalı          DONE
+--- cards end pointi için iDList create edilmeli ve alınmalı          DONE
+--- idBoard vermem lazım         ---- create ettiğim boıarddan        DONE
+--- card ın id sini bulmam lazım  ----- create ettiğim card responsundan DONE
+
+
+ --- Trello üzerinden bir tane board oluşturunuz                       (POST)
+ --- Oluşturduğunuz board a iki tane card oluşturunuz                  (POST)
+ --- Oluşturuduğunuz bu iki kartta bir tanesini güncelleiyiniz.        (PUT)
+ --- Oluşturduğunuz kartı siliniz
+ -- Oluşturduğunuz board u siliniz
+
+        ----------------------------------------------------------------------------------------------
+
 Kullanılacak apikey ve token bilgileri aşağıda verilmiştir. İlgili apıkey ve token bilgilerine ulaşmak için
 
 ---   URL = https://trello.com/login ve https://trello.com/app-key adresine giderek, apikey ve token creation işlemlerini

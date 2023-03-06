@@ -76,7 +76,6 @@ public class Put02 extends RestFullBookerHerOkuAppBaseURL {
                 when().put("/{bookingPath}/{idPath}");
         System.out.println("RESPONSE: ");
         response.prettyPrint();
-
         //Forbidden     ----->>>> Token değiştirdim
         //401  ----->> Unauth.     -----------------    Authj. ile ilgli herahngi bir value bulunmadığı zaman.
         //403 ------>> Forbidden    - - -- - -- - -- Token veya ilgili auth. metodu ne ise onunla ilgili oalrak value var fakat yanlış yahut expire olmuş olabilir.

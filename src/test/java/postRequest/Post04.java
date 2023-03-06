@@ -113,7 +113,6 @@ public class Post04 {
          */
         Response response = given().contentType(ContentType.JSON).body(reqBody).when().
                 header("Authorization","Bearer " + token).post(URLforCreationDeposit);
-
         System.out.println("RESPONSE: ");
         response.prettyPrint();
 

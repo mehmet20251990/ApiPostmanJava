@@ -14,7 +14,6 @@ public class ZippoPotamPlaces {
     /*
     POJO: Plain Old Java Object
     Expected Data veya Actual Dataları depolamak için yani tutmak için kullanıyoruz.
-
     1)Fieldlar ----> Var.     PRIVATE   -------> Her bir json için
     2)Parametresiz Constructor
     3)Parametreli Constructor

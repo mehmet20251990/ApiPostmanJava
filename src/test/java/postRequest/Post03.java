@@ -61,12 +61,13 @@ public class Post03 extends DummyBaseURL {
     "message": "Successfully! Record has been added."
         }
          */
-        DummyRestApiExPojo dummyResTApiExPojo = new DummyRestApiExPojo("success",dummyRestApiPojo,"Successfully! Record has been added.");
+        DummyRestApiExPojo dummyResTApiExPojo = new DummyRestApiExPojo("success",dummyRestApiPojo,
+                                                            "Successfully! Record has been added.");
 
         //Step 3: Send a request
         //Basic Auth.  ---> kullanılaak.
-        // Dokumanda suth istemiyor fakat biz örnek olsun diye nasıl kukllanıalcğaını öğrenmek amaçlı olarak basic auth. ile işlem yapacağız.
-
+        // Dokumanda suth istemiyor fakat biz örnek olsun diye nasıl kukllanıalcğaını öğrenmek amaçlı olarak basic auth.
+        // ile işlem yapacağız.
         // ---> Beare token     Header da vermiştik.
         Response response = given().spec(specification).
                 contentType(ContentType.JSON).auth().basic("admin","password123").

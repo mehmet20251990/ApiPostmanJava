@@ -72,7 +72,5 @@ public class Get10 extends DummyBaseURL {
         metotoalrını kullanarak assertion işlemlerini tamamlayınız .
          */
 
-
-
     }
 }

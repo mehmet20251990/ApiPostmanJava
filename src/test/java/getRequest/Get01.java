@@ -22,7 +22,6 @@ public class Get01 {
         Selenium Web UI testleri koştuğumuz gibi.
 
         Test Case:
-
          --> Expected Result
 
          ---> Actual Result      ====>>>>> Response dan alacağım.

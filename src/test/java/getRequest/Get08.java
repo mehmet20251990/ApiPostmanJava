@@ -7,7 +7,6 @@ import java.util.*;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.testng.AssertJUnit.assertEquals;
-
 public class Get08 extends SwapiApiBaseURL {
         /*
         Given
@@ -128,8 +127,6 @@ public class Get08 extends SwapiApiBaseURL {
         /*
         JsonPath   ----- SoftAssert kullanarak çözümünü yapınız.
          */
-
-
 
     }
 }

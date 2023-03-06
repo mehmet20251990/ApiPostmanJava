@@ -78,6 +78,4 @@ public class Get02 {
         assertFalse(responseBodyStr.contains("Clarusway")); //assertFalse() içine girmiş olduğum veri FALSE return oluyorsa
                                                             // testimiz PASS olur
     }
-
-
 }

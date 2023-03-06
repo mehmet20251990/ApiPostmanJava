@@ -6,7 +6,6 @@ import org.junit.Test;
 import pojoDatas.GoRestCoApiPojo;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
-
 public class Get13 extends GoRestBaseURL {
         /*
            Given

@@ -15,7 +15,6 @@ Feature: Kullanıcı Trello API uzerinde cesitli islemler yapabilmelidir
     And Kullanıcı board id yi alır
     Then Kullanıcı boad un basarili bir sekilde create edildigini dogrular
   
-  
     #https://api.trello.com/1/lists?name={name}&idBoard=5abbe4b7ddc1b351ef961414&key=APIKey&token=APIToken
   @createList
   Scenario: Kullanıcı card create edebilmek icin list create edebilmeli
@@ -39,8 +38,7 @@ Feature: Kullanıcı Trello API uzerinde cesitli islemler yapabilmelidir
   Scenario: Kullanıcı olusturdugu kartlardan herhangi birini update edebilmeli
     When Kullanıcı update islemi iicn ilgili url ePUT metodu ile request atar "idPath","1","cardsPath","cards"
     Then Kullanıcı basarili bir sekilde cardlardan birini update ettigini verify eder
-  
-  
+
       #"https://api.trello.com/1/cards/{id}?key=APIKey&token=APIToken"
   @deleteCard
   Scenario Outline: Kullanıcı olusturdugu cardlari silebilmeli

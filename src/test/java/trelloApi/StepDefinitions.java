@@ -170,4 +170,8 @@ public class StepDefinitions {
     public void kullanıcı_basarili_bir_sekilde_boardun_delete_edildigini_verfiy_eder() {
         response.then().assertThat().statusCode(200);
     }
+    @Then("Kullanıcı basarili bir sekilde boardun delete edildigini verfiy ederen Kullanıcı boad un basarili bir sekilde create edildigini dogrular")
+    public void kullanıcıBasariliBirSekildeBoardunDeleteEdildiginiVerfiyEderenKullanıcıBoadUnBasariliBirSekildeCreateEdildiginiDogrular() {
+
+    }
 }

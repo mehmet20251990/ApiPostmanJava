@@ -14,7 +14,6 @@ public class Get01 {
         kullanıyoruz. Fakat dersler de işlediğimiz üzere POSTMAN ile test otomasyonu yapabiliyoruz.
 
         API testlerimizi bundan sonra RestAssured Lib. kullanrak yapacağız.
-
         TEST leri yapabiliyor olmak içn sizlerin bir doc.a ihtiyacı vardır.
         Biz test eng.ler bu doc.a göre API leri nasıl kullanacağımız veya nasıl test edeceğimizi öğreniriz.
 
@@ -23,7 +22,6 @@ public class Get01 {
 
         Test Case:
          --> Expected Result
-
          ---> Actual Result      ====>>>>> Response dan alacağım.
 
         Gherkin Lang.

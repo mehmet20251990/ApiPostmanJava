@@ -71,6 +71,5 @@ public class Get10 extends DummyBaseURL {
         JsonPath
         metotoalrını kullanarak assertion işlemlerini tamamlayınız .
          */
-
     }
 }

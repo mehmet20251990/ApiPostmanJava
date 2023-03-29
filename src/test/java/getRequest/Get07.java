@@ -73,6 +73,5 @@ public class Get07 extends DummyBaseURL {
          assertEquals(7,idS.size());
 
          // Test 3: salary
-
      }
 }

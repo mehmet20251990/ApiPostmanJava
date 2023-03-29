@@ -54,4 +54,4 @@ Feature: Kullanıcı Trello API uzerinde cesitli islemler yapabilmelidir
   @deleteBoard
   Scenario: Kullanıcı bord silebilmeli
     When Kullanıcı board delete islemi icin ilgili url e DELETE metodu ile request atar "idPath","1","boardsPath","boards"
-    Then Kullanıcı basarili bir sekilde boardun delete edildigini verfiy ederen Kullanıcı boad un basarili bir sekilde create edildigini dogrular
+    Then Kullanıcı basarili bir sekilde boardun delete edildigini verfiy eder

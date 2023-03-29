@@ -13,14 +13,12 @@ public class Delete02 extends DummyBaseURL {
      /*
     Given
             1)https://dummy.restapiexample.com/api/v1/delete/2
-
         When
 	 	    Kullanıcı Delete ile request atar
 	 	Then
 		 	Status code un 200 olduğunu
 		 And
 		    Response body in
-
 		    {
     "status": "success",
     "data": "719",

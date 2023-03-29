@@ -54,6 +54,5 @@ public class Post02 extends GoRestBaseURL {
 
         //Step 4: Assertion
         //Pojo kullanrak assert ediniz.
-
     }
 }

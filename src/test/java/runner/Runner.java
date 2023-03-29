@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources",
         //path of step definitons
         glue = "trelloAPI",
-        tags = "@createboard",
-        dryRun = true
+        tags = "@trelloApi",
+        dryRun = false
                 )
 public class Runner {
 }

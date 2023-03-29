@@ -6,7 +6,7 @@ Feature: Kullanıcı Trello API uzerinde cesitli islemler yapabilmelidir
   
      #Bu scen. de bizler board create edeceğiz ayrıca taskımıza bizlere verilen
     # diğer işlemleri gerçekleştirebilmek için bizlerin board id sine ihtiyacı vardır
-    #Board ıd yi de bu scen. alabacağız. Ve Boardun create edildiğini assert edeceğiz.    ------->>>>>>>>>< class seviyesinde tanımla
+    #Board ıd yi de bu scen. alabacağız. Ve Boardun create edildiğini assert edeceğiz.  ---->>>>>< class seviyesinde tanımla
   
     # URL = 'https://api.trello.com/1/boards/?name={name}&key=APIKey&token=APIToken'   (POST)
   @createboard
@@ -44,7 +44,6 @@ Feature: Kullanıcı Trello API uzerinde cesitli islemler yapabilmelidir
   Scenario Outline: Kullanıcı olusturdugu cardlari silebilmeli
     When Kullanıcı delete islemi yapabilmek icin ilgili url e DELETE metodu ile request atar "idPath","1","cardsPath","cards","cardIdPath",<cardsId>
     Then Kullanıcı basarili bir sekilde cardalrin delete edildigini verfiy eder
-  
     Examples:
       | cardsId |
       | 0       |
